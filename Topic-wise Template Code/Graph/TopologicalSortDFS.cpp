@@ -27,7 +27,7 @@ int main()
     memset(visited, 0, sizeof visited);
     
     // Edge Description. This is a DAG
-    // Also count inDegree 
+    // No need to count any inDegree 
     graph[1].push_back(3);
     graph[2].push_back(3);
     graph[3].push_back(4);
